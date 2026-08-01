@@ -4,10 +4,10 @@
 This is a project walk through where I combine everything I have learned (HTML, CSS, Bootstrap, custom CSS). Practice for my Milestone Projects and will document everything on the here like my milestones projects.
 <hr>
 
-## Project Planning
-
+## Overview
 This is a website that shows the user options and information on all sorts of tabletop games. 
 
+## Project Planning
 Our Business client(s):
 * Tabletop games shop and cafe.
 
@@ -27,6 +27,12 @@ Who are our users:
   * Board game enthusiasts seeking information about game events and new releases.
  
 ## Skeleton
+
+Code Institute have already prepared these wireframes for us. This will make it easier to be able to structure the website for all devices.
+
+<p align = "center">
+ <img width="526" height="593" alt="wireframes" src="https://github.com/user-attachments/assets/a428aa27-6994-4050-a47f-e78887e3edc4" />
+</p>
 
 ## Accessibility
 
