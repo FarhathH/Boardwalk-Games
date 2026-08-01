@@ -25,5 +25,9 @@ Who are our users:
   * Students gamers interested in budget-friendly entertainment options and discounts.
   * Families & Casual gamers who are looking for a fun time and relaxed atmosphere.
   * Board game enthusiasts seeking information about game events and new releases.
+ 
+## Skeleton
+
+## Accessibility
 
 
