@@ -80,5 +80,12 @@ I decided to test this once again. I decided to alter the CSS file path, reloade
 
 
 ## Accessibility
-
-
+I started off with creating the following sections:
+* Navigation:
+* Header:
+* Main with sections:
+* Footer:
+<p align = "center">
+ <img width="360" height="245" alt="laptop screen" src="https://github.com/user-attachments/assets/52b20b24-a76f-4630-92b3-34875922b02a" />
+ <img width="401" height="417" alt="tablet and mobile screen" src="https://github.com/user-attachments/assets/e17b1a91-296f-4b60-907a-fe16e7c2a19a" />
+</p>
