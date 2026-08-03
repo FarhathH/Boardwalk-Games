@@ -81,7 +81,7 @@ I decided to test this once again. I decided to alter the CSS file path, reload 
 
 
 
-## Accessibility
+## Responsive
 I started off with creating the following sections:
 * Navigation:
 * Header:
