@@ -81,12 +81,18 @@ I decided to test this once again. I decided to alter the CSS file path, reload 
 
 
 
-## Responsive
-I started off with creating the following sections:
+## Responsive Design
+I started off with creating the following sections (though in the earlier stages the navigational bar was not created yet):
 * Navigation:
+  * Contains logo and navigational items
+  * User can access other pages
 * Header:
+  * Has introductory text and a hero banner.
 * Main with sections:
+  * Contains info about services
 * Footer:
+  * Contains location, opening times and contact details.
+
 
 <p align = "center">
  <img width="360" height="245" alt="laptop screen" src="https://github.com/user-attachments/assets/52b20b24-a76f-4630-92b3-34875922b02a" />
