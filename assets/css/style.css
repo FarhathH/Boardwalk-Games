@@ -5,8 +5,8 @@
 :root{
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #416a8e; /*blue*/
-    --secondary-color:#a99581;
+    --primary-color: #3a2620; /*brown*/
+    --secondary-color:#49341f;
     --highlight-color:#416a8e;
     --highlight-color-light:#7a9fc2;
 
@@ -27,6 +27,11 @@ h3{
 
 .sub-heading-color{
     color: var(--highlight-color);
+}
+
+/*Navbar CSS*/
+#navbar{
+    background-color: var(--primary-color);
 }
 
 /*grid visualisation CSS for testing*/
