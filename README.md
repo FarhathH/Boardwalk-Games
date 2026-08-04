@@ -98,3 +98,9 @@ I started off with creating the following sections (though in the earlier stages
  <img width="360" height="245" alt="laptop screen" src="https://github.com/user-attachments/assets/52b20b24-a76f-4630-92b3-34875922b02a" />
  <img width="401" height="417" alt="tablet and mobile screen" src="https://github.com/user-attachments/assets/e17b1a91-296f-4b60-907a-fe16e7c2a19a" />
 </p>
+
+I had created the game-library page by transferring the code from the index page. I did a quick look in the browser developer tools just to see the differences in different screen sizes once again. Everything seemed fine at the moment.
+
+<p align="center">
+   <img width="2435" height="820" alt="game-library-page-screen-sizes" src="https://github.com/user-attachments/assets/a6d78146-f4fd-41f9-9ba9-9d303d51fba9" />
+</p>
