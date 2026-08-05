@@ -79,7 +79,7 @@ I decided to test this once again. I decided to alter the CSS file path, reload 
   <img width="662.5" height="608" alt="commited and checked" src="https://github.com/user-attachments/assets/263f8669-2784-4dfc-97ae-79b28e8dbdd8" />
 </p>
 
-Added a navbar and manual tested it. I wanted to check that it clicking the links would take me to the correct pages after modifying it. All the links took me to the correct locations. The logo and home nav item took me to the index page, 
+Added a navbar and manual tested it. I wanted to check that clicking the links would take me to the correct pages after modifying it. All the links took me to the correct locations. The logo and home nav item took me to the index page and the game link leads to the game library page. I removed the visibility grid made from CSS as it was no longer needed. 
 
 <p align= "center">
  <img width="2560" height="1440" alt="manual-testing-navbar" src="https://github.com/user-attachments/assets/b0ccc1ed-aaaf-4c51-a663-54a1b314d258" />
@@ -109,15 +109,11 @@ I had created the game-library page by transferring the code from the index page
    <img width="2435" height="820" alt="game-library-page-screen-sizes" src="https://github.com/user-attachments/assets/a6d78146-f4fd-41f9-9ba9-9d303d51fba9" />
 </p>
 
-I soon started adding content for the header and a carousel foe the index page.
+I soon started adding content for the header and a carousel for the index page. I tried to make sure that the heading, subheading and the paragraph are distinct from each other. When I checked in the dev tools, the header content was still responsive to mobile, tablet and laptop screens.
+The carousel’s autoscroll worked as well.
+
 <p align="center">
  <img width="2560" height="1440" alt="added-index-header-text-and-tested-responsive-design" src="https://github.com/user-attachments/assets/5a2f5f39-1478-49d9-8ab7-3be46ec6cdbf" />
-</p>
-
-I also checked the responsive design of the 
-
-<p align="center">
- <img width="2560" height="1440" alt="added-carousel-and-manual-tested" src="https://github.com/user-attachments/assets/98d839e4-7fd8-456a-b943-4a473b6090f7" />
 </p>
 
 ## Accessibility
