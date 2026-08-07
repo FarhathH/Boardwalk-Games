@@ -116,8 +116,21 @@ The carousel’s autoscroll worked as well.
  <img width="2560" height="1440" alt="added-index-header-text-and-tested-responsive-design" src="https://github.com/user-attachments/assets/5a2f5f39-1478-49d9-8ab7-3be46ec6cdbf" />
 </p>
 
+I started adding the main section content for the the index and game-library pages.
+<p align = "center">
+  <img width="208.5" height="304" alt="section services content but the  card height is inconsistent" src="https://github.com/user-attachments/assets/e6bfa164-4e01-496a-b96b-7fa3039becb3" />
+  <img width="330.5" height="170" alt="the extra large screen is still inconsistent" src="https://github.com/user-attachments/assets/aff32cf8-e22f-4ad9-93a4-dbb4dbc218b9" />
+</p>
+
+<p align="center">
+  <img width="208.5" height="304" alt="section services content but the  card height is inconsistent" src="https://github.com/user-attachments/assets/b5c625b5-8b04-4414-8a9b-53ab787a06ad" />
+  <img width="406.5" height="269.25" alt="reused the necessary to add content to games-library" src="https://github.com/user-attachments/assets/62780d50-8694-4c66-8089-ab4c7ac9a363" />
+  <img width="402.5" height="445" alt="fixed the issue" src="https://github.com/user-attachments/assets/0e905514-7233-4d5a-9a40-40396d942913" />
+</p>
+
 ## Accessibility
 During the development of getting the navbar for my website sorted, I originally had used a bootstrap template to start off by changing the style by using some custom CSS and removing the 'bg-body-tertiary' class that was put by default as it was overriding it.
+
 <p align="center">
  <img width="653" height="213" alt="changed-navbar-colour" src="https://github.com/user-attachments/assets/5a57c61e-8b14-40d4-bd97-d756e13fe62d" />
 <img width="702" height="39" alt="changed-font-color-for-good-contrast" src="https://github.com/user-attachments/assets/1708ad49-c452-4f64-adbb-b0f7b08d209b" />
