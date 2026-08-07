@@ -66,6 +66,10 @@ h2{
     background-color: transparent;
 }
 
+#services .card{
+    margin-bottom: 1.5rem;
+}
+
 /*grid visualisation CSS for testing*/
 /*
 .container{
@@ -77,3 +81,39 @@ h2{
     background-color: lightgrey;
 }
     */
+
+/*Media query for tablets*/
+@media screen and (min-width:768px) {
+    /*Makes all cards the same height for consistancy*/
+    #services .card-body{
+        min-height: 191px;
+    }
+}
+
+/*For smaller laptops/devices*/
+@media screen and (min-width:992px){
+    #services .card-body{
+        min-height: auto;
+    }
+}
+
+/* xl devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* make all service cards the same height for consistency */
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/* xxl devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+    /* make all service cards the same height for consistency */
+    #services .card-body {
+        min-height: 195px;
+    }
+}
+
+/*
+≥1200px
+≥1400px
+*/
