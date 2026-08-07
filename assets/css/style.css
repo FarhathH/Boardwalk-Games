@@ -23,6 +23,12 @@ h2,
 h3{
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    
+}
+
+/*Styling for card headings*/
+h1,
+h2{
     text-transform: uppercase;
 }
 
@@ -51,6 +57,13 @@ h2{
 /*Header text*/
 #header .lead{
     font-family: var(--secondary-font);
+}
+
+/*Services styling*/
+#services .card-footer{
+    font-weight: bold;
+    color:var(--highlight-color);
+    background-color: transparent;
 }
 
 /*grid visualisation CSS for testing*/
