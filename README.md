@@ -128,6 +128,11 @@ I started adding the main section content for the the index and game-library pag
   <img width="402.5" height="445" alt="fixed the issue" src="https://github.com/user-attachments/assets/0e905514-7233-4d5a-9a40-40396d942913" />
 </p>
 
+Checked the appearance in mobile/tablet view.
+<p align = "center">
+ 
+</p>
+
 ## Accessibility
 During the development of getting the navbar for my website sorted, I originally had used a bootstrap template to start off by changing the style by using some custom CSS and removing the 'bg-body-tertiary' class that was put by default as it was overriding it.
 
@@ -160,6 +165,7 @@ Added brown to my social icons for the footer and made them a lighter brown for 
  <p align = "center">
  <img width="962" height="396" alt="edited so that the icons are light brown and the social links are a light blue" src="https://github.com/user-attachments/assets/4283a7e9-8f10-4739-b5f9-6d05281fbd48" />
  </p>
+
 
 
 
