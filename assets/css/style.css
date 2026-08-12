@@ -6,7 +6,7 @@
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
     --primary-color: #3a2620; /*brown*/
-    --secondary-color:#49341f;
+    --secondary-color:#917253;
     --highlight-color:#416a8e;
     --highlight-color-light:#7a9fc2;
 
@@ -77,6 +77,41 @@ h2{
     border: none;
 }
 
+/*Footer/contact section*/
+#contact{
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact h2{
+    color: white;
+}
+
+#contact .sub-heading-color{
+    color: var(--highlight-color-light);
+}
+
+#contact a{
+    text-decoration: none;
+}
+
+#contact svg{
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+    
+}
+
+#contact .social-links svg{
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+}
+
+#contact .social-links svg:hover{
+    color: var(--secondary-color);
+    transition: color 0.3s ease-in-out;
+}
 /*grid visualisation CSS for testing*/
 /*
 .container{
