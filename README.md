@@ -136,6 +136,33 @@ During the development of getting the navbar for my website sorted, I originally
 <img width="702" height="39" alt="changed-font-color-for-good-contrast" src="https://github.com/user-attachments/assets/1708ad49-c452-4f64-adbb-b0f7b08d209b" />
 </p>
 
+Added contact info in footer and added background colour.
+<p align="center">
+  <img width="1340" height="368" alt="Added contact info in footer and added background colour with css" src="https://github.com/user-attachments/assets/3de47442-43ba-42ee-a6e0-88230d142f35" />
+</p>
+
+Changed the colour for better contrast. But the main header was invisible.
+<p align="center">
+  <img width="1133" height="367" alt="changed the color property for better contrast" src="https://github.com/user-attachments/assets/e9bd419b-0b9e-4bad-9190-f5ecb1dc31cc" />
+</p>
+
+So I changed the h2 header colour to white.
+<p align="center">
+ <img width="991" height="407" alt="changed h2 heading to white" src="https://github.com/user-attachments/assets/6734b8cb-4c53-4c9e-9422-185248bde1ef" />
+</p>
+
+Added brown to my social icons for the footer and made them a lighter brown for better contrast.
+<p align="center">
+ <img width="764" height="366" alt="added light brown shade to my social icons" src="https://github.com/user-attachments/assets/a77f7c4e-38fc-4db1-ba3a-b1735841bf72" />
+</p>
+
+ Edited it so that the icons for the contact info are light brown and the social icon links are a light blue.
+ <p align = "center">
+ <img width="962" height="396" alt="edited so that the icons are light brown and the social links are a light blue" src="https://github.com/user-attachments/assets/4283a7e9-8f10-4739-b5f9-6d05281fbd48" />
+ </p>
+
+
+
 
 
 
