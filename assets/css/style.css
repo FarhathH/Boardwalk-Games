@@ -112,6 +112,11 @@ h2{
     color: var(--secondary-color);
     transition: color 0.3s ease-in-out;
 }
+
+/*opening table style*/
+#contact .table-dark *{
+    background-color: transparent;
+}
 /*grid visualisation CSS for testing*/
 /*
 .container{
