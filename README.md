@@ -127,10 +127,9 @@ I started adding the main section content for the the index and game-library pag
   <img width="406.5" height="269.25" alt="reused the necessary to add content to games-library" src="https://github.com/user-attachments/assets/62780d50-8694-4c66-8089-ab4c7ac9a363" />
   <img width="402.5" height="445" alt="fixed the issue" src="https://github.com/user-attachments/assets/0e905514-7233-4d5a-9a40-40396d942913" />
 </p>
-
-Checked the appearance in mobile/tablet view.
+Checked the appearance in the mobile/tablet view. Everything seemed to be fine for the most part, but I only had changed the margin for the contact information section to allow breathing room between the contact details and the opening times table. Once that correction was done, I added the footer to the games-library page as well and updated the links in the navbar.
 <p align = "center">
- 
+  <img width="463" height="854" alt="viewed in mobile view and added top and bottom margin for the contact section" src="https://github.com/user-attachments/assets/d3b1253d-b3df-4757-9f4c-5c74e0f758b1" />
 </p>
 
 ## Accessibility
@@ -141,29 +140,25 @@ During the development of getting the navbar for my website sorted, I originally
 <img width="702" height="39" alt="changed-font-color-for-good-contrast" src="https://github.com/user-attachments/assets/1708ad49-c452-4f64-adbb-b0f7b08d209b" />
 </p>
 
-Added contact info in footer and added background colour.
+Added contact info in the footer and added background colour. At this stage, I just wanted to get the rough info in place. The only problem was that the font for the address and contact details was too dark and didn’t have enough contrast and that made it difficult for users to read the information.
 <p align="center">
-  <img width="1340" height="368" alt="Added contact info in footer and added background colour with css" src="https://github.com/user-attachments/assets/3de47442-43ba-42ee-a6e0-88230d142f35" />
+  <img width="670" height="184" alt="Added contact info in footer and added background colour with css" src="https://github.com/user-attachments/assets/3de47442-43ba-42ee-a6e0-88230d142f35" />
 </p>
-
-Changed the colour for better contrast. But the main header was invisible.
+So I changed the colour to white for better contrast and applied it to the icons as well. But the main header was invisible. Earlier, I set the font colour for the main heading to be brown. It was hidden in the background as a result. 
 <p align="center">
-  <img width="1133" height="367" alt="changed the color property for better contrast" src="https://github.com/user-attachments/assets/e9bd419b-0b9e-4bad-9190-f5ecb1dc31cc" />
+  <img width="566.5" height="183.5" alt="changed the color property for better contrast" src="https://github.com/user-attachments/assets/e9bd419b-0b9e-4bad-9190-f5ecb1dc31cc" />
 </p>
-
-So I changed the h2 header colour to white.
+So I changed the h2 header colour to white. The same colour as the address and contact information. The user could finally see the title which was notified that the contact information is located here.
 <p align="center">
- <img width="991" height="407" alt="changed h2 heading to white" src="https://github.com/user-attachments/assets/6734b8cb-4c53-4c9e-9422-185248bde1ef" />
+ <img width="495.5" height="203.5" alt="changed h2 heading to white" src="https://github.com/user-attachments/assets/6734b8cb-4c53-4c9e-9422-185248bde1ef" />
 </p>
-
-Added brown to my social icons for the footer and made them a lighter brown for better contrast.
+The blue social network icons were small and had lines between them.The colour wasn’t complementary with the background so I added brown to my social network icons for the footer and made them a lighter shade for better contrast.
 <p align="center">
- <img width="764" height="366" alt="added light brown shade to my social icons" src="https://github.com/user-attachments/assets/a77f7c4e-38fc-4db1-ba3a-b1735841bf72" />
+ <img width="382" height="183" alt="added light brown shade to my social icons" src="https://github.com/user-attachments/assets/a77f7c4e-38fc-4db1-ba3a-b1735841bf72" />
 </p>
-
- Edited it so that the icons for the contact info are light brown and the social icon links are a light blue.
+I didn’t quite like the look of the light brown icons so I edited it so that the icons for the contact info are white and the social network icon links are light blue. This worked to distinguish between the icons to represent the contact details and the social links that open to the companies’ social homepages.
  <p align = "center">
- <img width="962" height="396" alt="edited so that the icons are light brown and the social links are a light blue" src="https://github.com/user-attachments/assets/4283a7e9-8f10-4739-b5f9-6d05281fbd48" />
+ <img width="481" height="198" alt="edited so that the icons are light brown and the social links are a light blue" src="https://github.com/user-attachments/assets/4283a7e9-8f10-4739-b5f9-6d05281fbd48" />
  </p>
 
 
