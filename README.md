@@ -85,6 +85,25 @@ Added a navbar and manual tested it. I wanted to check that clicking the links w
  <img width="2560" height="1440" alt="manual-testing-navbar" src="https://github.com/user-attachments/assets/b0ccc1ed-aaaf-4c51-a663-54a1b314d258" />
 </p>
 
+I made the booking enquiry page so that the user can finally book a session for themself and their family/friends. Of course, I managed to place the labels and input tags with the correct labels. I knew that to check that the form worked properly. I manually tested the fields, one by one. Everything seemed to be working fine until the error message skipped the events type field.
+
+<p align ="center">
+  <img width="756" height="581" alt="testing fields in the form" src="https://github.com/user-attachments/assets/fe899acb-c39a-4b0b-8842-f59d1f67c359" />
+</p>
+
+I checked on VS code for the source of the problem. I noticed that the reason for this was that for the events type field code, the default selected keyword was used for the Selected option which caused it to bypass the HTML validation check. By changing the selected keyword to a value with a blank. It was no longer classed as a valid option. After checking again, every field functioned as intended and I was able to submit the right information.
+
+<p align="center">
+ <img width="922" height="166" alt="changed the value for selected as a blank so that it isn&#39;t registered as a blank" src="https://github.com/user-attachments/assets/525abcad-a91a-4869-8e88-c9e9a7c0e8ea" />
+  <img width="647" height="515" alt="This fixed the issue" src="https://github.com/user-attachments/assets/5efe664c-71cf-42d5-b0c2-315e4b126410" />
+</p>
+
+To complete full functionality, I created and added a success.html page that will load for the user after a successful submission. I managed to get this page to load by inserting the link to the page itself in the action attribute. This way the form will go to the page if the submission is successful.
+
+<p align="center">
+  <img width="584" height="373" alt="styled buttons" src="https://github.com/user-attachments/assets/db3e01d2-92c3-4bb9-91c6-716c9bf980bb" />
+</p>
+
 ## Responsive Design
 I started off with creating the following sections (though in the earlier stages the navigational bar was not created yet):
 * Navigation:
@@ -159,6 +178,12 @@ The blue social network icons were small and had lines between them.The colour w
 I didn’t quite like the look of the light brown icons so I edited it so that the icons for the contact info are white and the social network icon links are light blue. This worked to distinguish between the icons to represent the contact details and the social links that open to the companies’ social homepages.
  <p align = "center">
  <img width="481" height="198" alt="edited so that the icons are light brown and the social links are a light blue" src="https://github.com/user-attachments/assets/4283a7e9-8f10-4739-b5f9-6d05281fbd48" />
+ </p>
+
+ For the form, I decided to custom style the buttons. The default blue colour used before didn’t match the colour scheme. So I used the same colour as the subheading font. I also applied the hover effect for the user to know that they can click on it to go to the booking page.
+
+ <p align="center">
+   <img width="584" height="373" alt="styled buttons" src="https://github.com/user-attachments/assets/a47e5ef3-4f6a-4533-bd67-069c69a456ba" />
  </p>
 
 
