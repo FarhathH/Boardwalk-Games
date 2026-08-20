@@ -101,7 +101,7 @@ I checked on VS code for the source of the problem. I noticed that the reason fo
 To complete full functionality, I created and added a success.html page that will load for the user after a successful submission. I managed to get this page to load by inserting the link to the page itself in the action attribute. This way the form will go to the page if the submission is successful.
 
 <p align="center">
-  <img width="584" height="373" alt="styled buttons" src="https://github.com/user-attachments/assets/db3e01d2-92c3-4bb9-91c6-716c9bf980bb" />
+  <img width="577" height="342" alt="added success html page for successful submission" src="https://github.com/user-attachments/assets/4ee021ae-b683-448f-8bff-a05bb10f70e2" />
 </p>
 
 ## Responsive Design
