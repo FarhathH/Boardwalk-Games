@@ -48,11 +48,11 @@ h2{
 /*Editing for events section*/
 #events .student-id{
     background-color: var(--highlight-color);
-    font-weight: bold;
+    font-weight: bolder;
     color: white;
     margin: auto;
-    display: block;
-    padding:4px 3px 5px 3px;
+    padding-top:5px;
+    padding-bottom:5px;
 }
 
 /*button styling*/
@@ -192,6 +192,9 @@ h2{
     #services .card-body {
         min-height: 220px;
     }
+     #events .student-id{
+        width:60%;
+    }
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
@@ -199,6 +202,9 @@ h2{
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 195px;
+    }
+     #events .student-id{
+        width:60%;
     }
 }
 
