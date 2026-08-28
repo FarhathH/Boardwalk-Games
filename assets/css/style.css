@@ -16,6 +16,7 @@
 /*Global styles*/
 body{
     font-family: var(--primary-font);
+    padding-top: 57.55px; /*Pushes navbar to the top*/
 }
 
 h1,
