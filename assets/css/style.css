@@ -144,6 +144,7 @@ h2{
 
 #contact .social-links svg:hover{
     color: var(--secondary-color);
+    -webkit-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
