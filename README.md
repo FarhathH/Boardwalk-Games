@@ -104,6 +104,81 @@ To complete full functionality, I created and added a success.html page that wil
   <img width="577" height="342" alt="added success html page for successful submission" src="https://github.com/user-attachments/assets/4ee021ae-b683-448f-8bff-a05bb10f70e2" />
 </p>
 
+When I implemented the form for the user to reserve a game, I loaded the live server version to check that all of the input fields would activate the html built-in validation check. I was satisfied to see that all the fields functioned as they should and I was able to submit the form as it led me to the success.html page.
+
+<p align="center">
+ <img width="1280" height="550" alt="manually tested games selection form" src="https://github.com/user-attachments/assets/3c2a4b80-4f9f-4401-a924-525fecde803a" />
+</p>
+
+As soon as I had fulfilled all the user stories criteria, I started manually testing the deployed website and made sure of the following:
+All of the nav items in the navbar should take the user to the corresponding pages. 
+* The logo takes the user to the homepage.
+* All of the booking now buttons take the user to the booking forms.
+* Each social-link icon takes the user to the corresponding social media page.
+* The website is responsive to all screen sizes.
+* All of the forms work.
+
+After testing the deployed website, I noticed that the navbar stayed at the top whenever I scrolled down. The user would have been annoyed that they would have to scroll back up to access the navbar. The events section’s ‘booking now’ button would take me to the enquiry booking form rather than the games reservation booking form. I managed to solve half of the problem by applying the fixed-top class to the nav tag and changing the hyperlink for the ‘book now’ button on the events section.
+
+<p align="center">
+ <img width="1104" height="517" alt="made some corrections after manual testing the deployed site" src="https://github.com/user-attachments/assets/ece7db0c-2b95-4749-bb13-ef2e993052fc" />
+</p>
+
+Now I needed to get to the top of the page to show again. The best way to achieve this was by using dev tools to check the navbar height and add that to the padding to the top of the body element. After committing the repository, I loaded up the deployed website once again and was relieved to have seen the navbar stick to the top regardless of where the user would scroll. I checked the nav item links. There was one problem. When clicking on the services link, the auto scrolls down to the section, but the title is blocked by the navbar.
+
+<p align="center">
+ <img width="947" height="519" alt="checked with dev tools and added 57 55px padding to body" src="https://github.com/user-attachments/assets/456f8389-520d-4bb5-b115-cd56fdb023d8" />
+</p>
+
+This was a quick and easy fix. I just replaced the margin properties with the padding-top property to prevent navbar overlap. This did fix the issue. I still continued to manually test all of the functions of the website. There was a new problem. In mobile view, when clicking a service or events nav item the navbar stays expanded and doesn’t minimise. It would be a better user experience if the navbar automatically minimised.
+
+<p align="center">
+ <img width="2323" height="806" alt="fixed the overlap issue by replacing margin with padding" src="https://github.com/user-attachments/assets/dafa7b70-9f8a-4ffd-a4d4-a4299937757c" />
+</p>
+
+To fix this, I simply applied some JavaScript for the index page only. This ensured that the mobile view, the navbar immediately minimises on the index.html page.
+
+<p align="center">
+<img width="742" height="376" alt="Fixed the navbar overlap with javaScript" src="https://github.com/user-attachments/assets/517200b5-29e4-4ce9-99bc-328b0239622b" />
+</p>
+
+I double checked and noticed that the buttons for the forms were too close to the footer and the ‘book now’ button on the navbar was the wrong colour. When I looked back in VS code and scanned for the issue. I forgot to add the ‘custom-button filled’ class so I quickly fixed that and added ‘mb-4’ to the submit buttons to add space. It looked less cluttered as a result.
+
+<p align="center">
+ <img width="1160" height="722" alt="Fixed manual testing errors" src="https://github.com/user-attachments/assets/f6a37d49-28a2-4180-a532-4b2cbf52eea5" />
+</p>
+
+Once I had finished the manual testing for my website. I went ahead to use the lighthouse feature from dev tools to check for any weaknesses and improve my website. I started off with the index.html report. Results were positive, but there were some insights and diagnostics noted in the report. Most of the performance issues were based on the toolkits from Google Fonts and Bootstrap so I couldn’t really do much to fix this. With the accessibility issue, it was mostly down to one of the card images lacking an alt attribute.
+
+<p align="center">
+ <img width="790" height="538" alt="lighthouse desktop report" src="https://github.com/user-attachments/assets/bf9d6129-84a0-4b1f-9c8e-682d064f379e" />
+</p>
+
+Once I added the missing alt attribute for the card image, I committed the repository and did a hard refresh. I deleted the old  lighthouse report and generated a new one. Accessibility is now at 100. Best practice is at 100 already so I didn’t really need to change and improve anything.
+
+<p align="center">
+ <img width="388" height="470" alt="Fixed accessibility through adding the missing alt attribute" src="https://github.com/user-attachments/assets/c19a094a-2903-440d-98e0-4e20b5b16424" />
+</p>
+
+I decided to check out the game-library page, the success page and booking form page. Both the booking page and the success page have the highest score for performance, accessibility and best practice. Those two pages were left alone. I decided to scroll through the lighthouse report for the games-library page. The performance score was 84. I looked at the diagnostics and insights. Most of them were the result of using re-built tools on my website like the Bootstrap classes, Google Fonts etc.
+
+<p align="center">
+ <img width="835" height="453" alt="lightouse report of other pages" src="https://github.com/user-attachments/assets/2c8e16e3-2f23-43db-a491-ed061e818181" />
+</p>
+
+So I moved onto some HTML and CSS validation testing for the website. I started off with the index page and css code. The results showed me that there were no errors with either HTML or the CSS. There was only one typo with the slash in the img tag on line 135. I removed it so it was an easy fix.
+
+<p align="center">
+ <img width="1210" height="964" alt="Fixed the issue after getting HTML and CSS validation results for index" src="https://github.com/user-attachments/assets/773f8ba9-92b1-4a9f-ac3d-48dd641ed94c" />
+</p>
+
+With the other pages of the website, the only page with some errors was the success page.
+Most of the errors noted were the result of a missing closed div tag before the footer closing tag. I remedied that by making the correction.
+
+<p align="center">
+ <img width="1263" height="843" alt="Fixed the errors after HTML validation testing" src="https://github.com/user-attachments/assets/a590a55a-2401-479f-8959-0d0bdc731ec2" />
+</p>
+
 ## Responsive Design
 I started off with creating the following sections (though in the earlier stages the navigational bar was not created yet):
 * Navigation:
@@ -149,6 +224,16 @@ I started adding the main section content for the the index and game-library pag
 Checked the appearance in the mobile/tablet view. Everything seemed to be fine for the most part, but I only had changed the margin for the contact information section to allow breathing room between the contact details and the opening times table. Once that correction was done, I added the footer to the games-library page as well and updated the links in the navbar.
 <p align = "center">
   <img width="463" height="854" alt="viewed in mobile view and added top and bottom margin for the contact section" src="https://github.com/user-attachments/assets/d3b1253d-b3df-4757-9f4c-5c74e0f758b1" />
+</p>
+
+I finally managed to keep the core features of the homepage. At this point, I thought that adding an events section would be beneficial for the users. I made sure to include rough info about the events that ‘Boardwalk Games’ offers. I made sure to split the paragraphs and table into two columns on larger screen sizes and group them in one column on smaller screen sizes.
+<p align="center">
+ <img width="960" height="542" alt="Worked on the responsive design of events section" src="https://github.com/user-attachments/assets/49ee8fa7-0352-45a7-9774-1101e7e89d82" />
+</p>
+
+After dealing with the events section, I essentially applied the same type of code for the game reserve section form. I did some quick editing of the html and css code to make sure that it was responsive to all screen sizes.
+<p align="center">
+ <img width="794" height="712" alt="screen sizes of the game reserve section form" src="https://github.com/user-attachments/assets/bd053c2b-ed52-4c8a-b6e5-d180b7d5f0d9" />
 </p>
 
 ## Accessibility
